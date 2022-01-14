@@ -1,0 +1,9 @@
+#!/usr/bin/env elixir
+
+# A simple Elixir script to demonstrate MuonTrap in action...
+
+Mix.install([
+  {:mt_demo, path: "../../mt_demo"}
+])
+
+MtDemo.main()
