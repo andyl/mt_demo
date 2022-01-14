@@ -10,13 +10,13 @@ This demo runs one simple command:
 
 And provides a handful of execution options:
 
-| Execution Method | Status |
-|------------------|--------|
-| Escript          | Fails  |
-| Elixir Script    | Works  |
-| iex              | Works  |
-| Release          | Works  |
-| Burrito          | Works  |
+| Execution Method   | Status |
+|--------------------|--------|
+| Escript            | Fails  |
+| Elixir Script      | Works  |
+| iex                | Works  |
+| Mix Release        | Works  |
+| Burrito Executable | Works  |
 
 ## Building the Burrito Executable
 
@@ -28,13 +28,13 @@ The Burrito build is configured to build a linux executable by default. See the
 
 ## Execution Options 
 
-First: clone the repo and run `mix deps.get`...
+First: clone the repo and run `mix deps.get`
 
 To run as Escript:
 - `mix escript.build`
 - `./mt_demo`
 
-To run in Iex:
+To run in IEX:
 - `iex -S mix`
 - `MtDemo.main()`
 
