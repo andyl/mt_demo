@@ -23,8 +23,8 @@ And provides a handful of execution options:
 To build the Release and Burrito executable, you will need `Zig`, `gzip` and
 `7z`.
 
-The Burrito build is configured to build a linux executable by default. See the
-`mix.exs` file to select the appropriate configuration for your platform.
+The Burrito build is configured to generate a linux executable by default. Edit
+the `mix.exs` file to select the appropriate configuration for your platform.
 
 ## Execution Options 
 
@@ -49,3 +49,4 @@ To run as Elixir Release:
 To run as Burrito Executable: 
 - `MIX_ENV=prod mix release`
 - `burrito_out/mt_demo_v1_linux`
+
