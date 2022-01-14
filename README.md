@@ -14,7 +14,7 @@ And provides a handful of execution options:
 |--------------------|--------|
 | Escript            | Fails  |
 | Elixir Script      | Works  |
-| iex                | Works  |
+| IEX                | Works  |
 | Mix Release        | Works  |
 | Burrito Executable | Works  |
 
