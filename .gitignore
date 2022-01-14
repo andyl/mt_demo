@@ -23,7 +23,7 @@ erl_crash.dump
 mt_demo-*.tar
 
 # Escript executable
-mt_demo
+/mt_demo
 
 # Burrito executable
 /burrito_out/
